@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5497380378835032455}
   - component: {fileID: 7675240283825384932}
   - component: {fileID: 290777948785930896}
-  - component: {fileID: 8695889758035451612}
+  - component: {fileID: 5605185625429331458}
   m_Layer: 0
   m_Name: Target
   m_TagString: Target
@@ -269,7 +269,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8695889758035451612
+--- !u!114 &5605185625429331458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,7 +282,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  ScoreValue: 1
 --- !u!1 &5497380380020880249
 GameObject:
   m_ObjectHideFlags: 0

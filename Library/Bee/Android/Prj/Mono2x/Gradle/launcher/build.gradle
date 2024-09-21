@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 22
         targetSdkVersion 32
-        applicationId 'com.avinash.archerygame'
+        applicationId 'com.avinash.shootergame'
         ndk {
             abiFilters 'armeabi-v7a'
         }

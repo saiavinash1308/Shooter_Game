@@ -24,9 +24,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    Unity.TextMeshPro.dll:
-    - TMPro.TMP_FontAsset
-    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -34,7 +31,6 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -55,7 +51,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
-    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     UnityEngine.TextCoreFontEngineModule:
@@ -64,13 +59,8 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
-    - UnityEngine.UI.AnimationTriggers
-    - UnityEngine.UI.Button/ButtonClickedEvent
-    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-    - UnityEngine.UI.Navigation
-    - UnityEngine.UI.SpriteState
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/Game.unity:
@@ -123,29 +113,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18184}
     - Class: 114
-      Script: {instanceID: 18256}
-    - Class: 114
       Script: {instanceID: 18494}
     - Class: 114
       Script: {instanceID: 18782}
     - Class: 114
-      Script: {instanceID: 18924}
+      Script: {instanceID: 20444}
     - Class: 114
-      Script: {instanceID: 18948}
+      Script: {instanceID: 20866}
     - Class: 114
-      Script: {instanceID: 18970}
+      Script: {instanceID: 21610}
     - Class: 114
-      Script: {instanceID: 20448}
+      Script: {instanceID: 21614}
     - Class: 114
-      Script: {instanceID: 20870}
+      Script: {instanceID: 21618}
     - Class: 114
-      Script: {instanceID: 21294}
+      Script: {instanceID: 21622}
     - Class: 114
-      Script: {instanceID: 22212}
+      Script: {instanceID: 21630}
     - Class: 114
-      Script: {instanceID: 22220}
-    - Class: 114
-      Script: {instanceID: 25716}
+      Script: {instanceID: 22238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -455,12 +441,6 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: d79942f85713e152b8975321f48cc33f
-    assemblyName: Assembly-CSharp
-    namespaceName: Avinash.ArcheryGame
-    className: TargetSpawner
-  - hash:
-      serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -471,12 +451,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: c485305ad0f4786c671ec42b978bc04e
-    assemblyName: Assembly-CSharp
-    namespaceName: Avinash.ArcheryGame
-    className: Arrow
   - hash:
       serializedVersion: 2
       Hash: f4f39b64f410b0cd98b49df4bad0eb7e
@@ -719,12 +693,6 @@ ScriptsOnlyBuild:
     className: DataPrivacyButton
   - hash:
       serializedVersion: 2
-      Hash: 7c198de82ff45d288bcfdf16c51b0452
-    assemblyName: Assembly-CSharp
-    namespaceName: Avinash.ArcheryGame
-    className: ArcheryPlayer
-  - hash:
-      serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -755,17 +723,35 @@ ScriptsOnlyBuild:
     className: NavMeshLink
   - hash:
       serializedVersion: 2
+      Hash: 7c8ec6eb4041c9497b775413816995ad
+    assemblyName: Assembly-CSharp
+    namespaceName: Avinash.ArcheryGame
+    className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7c198de82ff45d288bcfdf16c51b0452
+    assemblyName: Assembly-CSharp
+    namespaceName: Avinash.ArcheryGame
+    className: ArcheryPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: d79942f85713e152b8975321f48cc33f
+    assemblyName: Assembly-CSharp
+    namespaceName: Avinash.ArcheryGame
+    className: TargetSpawner
+  - hash:
+      serializedVersion: 2
       Hash: c13adf70ec9777b05527d1b32edc4c16
     assemblyName: Assembly-CSharp
     namespaceName: Avinash.ArcheryGame
     className: TargetMovement
   - hash:
       serializedVersion: 2
-      Hash: 7c8ec6eb4041c9497b775413816995ad
+      Hash: c485305ad0f4786c671ec42b978bc04e
     assemblyName: Assembly-CSharp
     namespaceName: Avinash.ArcheryGame
-    className: ScoreManager
+    className: Arrow
   platform: 13
   scenePathNames:
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/mk327/OneDrive/Desktop/Archery_Game/APK/Archery.apk
+  playerPath: C:/Users/mk327/OneDrive/Desktop/Archery_Game/APK/Shooter.apk

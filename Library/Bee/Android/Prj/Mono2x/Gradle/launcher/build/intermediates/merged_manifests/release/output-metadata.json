@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.avinash.archerygame",
+  "applicationId": "com.avinash.shootergame",
   "variantName": "release",
   "elements": [
     {
