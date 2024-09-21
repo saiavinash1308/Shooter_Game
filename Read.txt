@@ -1,0 +1,30 @@
+# Archery Game Project
+
+This project is an archery game implemented in Unity. It includes player controls for shooting arrows, arrow projectile behavior, and target spawning logic.
+
+## Project Structure
+
+- **ArcheryPlayer.cs**: This script handles player input, bow mechanics, arrow shooting, and player-related events.
+
+- **Arrow.cs**: This script represents the arrow projectile. It handles arrow movement, destruction, and collision events.
+
+- **TargetSpawner.cs**: This script manages the spawning of targets at specified locations. It includes logic to spawn targets at intervals and handles game events related to targets.
+
+- **Tags.cs**: This script defines constant strings for commonly used tags in the project.
+
+## How to Run the Project
+
+1. **Unity Version**: Ensure you have Unity installed on your machine. The project was developed using Unity, and it's recommended to use a version compatible with the project.
+
+2. **Open Unity Hub**: Launch Unity Hub and add the project by clicking on the "Add" button and selecting the project folder.
+
+3. **Select Unity Version**: In Unity Hub, select the appropriate Unity version for the project (if prompted).
+
+4. **Open Scene**: Open the main game scene by navigating to the "Assets" folder and opening the "MainScene" or equivalent scene.
+
+5. **Configure Player Settings**: In the Unity editor, navigate to `Edit > Project Settings > Player` and configure the settings according to your target platform.
+
+6. **Run the Game**: Click the "Play" button in the Unity editor to run the game. Use the mouse to aim and shoot arrows. Targets will spawn based on the specified logic.
+
+7. **Interact with the Game**: Follow the on-screen instructions to interact with the game. Shoot arrows at targets, and observe the game mechanics.
+
